@@ -7,7 +7,8 @@ export default function Home() {
   let streakArray = 
   [
     "7-9-2022",
-    "7-10-2022"
+    "7-10-2022",
+    "7-11-2022",
   ];
 
   let currentTime = new Date();
