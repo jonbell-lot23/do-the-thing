@@ -1,5 +1,5 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
 }
 
 .main {
@@ -10,6 +10,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  font-size: 10rem;
+  line-height: 10rem;
 }
 
 .footer {
