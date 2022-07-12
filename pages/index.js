@@ -5,11 +5,11 @@ import styles from "../styles/Home.module.css";
 
 
 export function Yes() {
-  return (<div className="bg-pink-500 text-white p-12">You did a thing!</div>)
+  return (<div className="p-12 text-white bg-pink-500">You did a thing!</div>)
 }
 
 export function No() {
-  return (<div className="bg-gray-100 text-blue-500 p-12">You have time!</div>)
+  return (<div className="p-12 text-blue-500 bg-gray-100">You have time!</div>)
 }
 
 export default function Home() {
@@ -18,12 +18,14 @@ export default function Home() {
     "7-9-2022",
     "7-10-2022",
     "7-11-2022",
+    "7-12-2022",
   ];
 
   /*
   7-9: Comic page
   7-10: This app, comic page, goose egg log, tinker bell
-  7-11: Comic page
+  7-11: Comic page, painting
+  7-12: Ghostchips chat, painting
   */
 
   let currentTime = new Date();
