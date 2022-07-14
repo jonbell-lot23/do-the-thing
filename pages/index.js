@@ -26,6 +26,7 @@ export default function Home() {
   7-10: This app, comic page, goose egg log, tinker bell
   7-11: Comic page, painting
   7-12: Ghostchips chat, painting
+  7-13: Comic about games, also game maker
   */
 
   let currentTime = new Date();
